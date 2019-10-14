@@ -1,0 +1,6 @@
+framework module Pods_StoretailSDK {
+  umbrella header "Pods-StoretailSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

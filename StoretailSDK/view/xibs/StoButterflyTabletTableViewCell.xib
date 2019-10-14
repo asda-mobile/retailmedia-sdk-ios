@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="StoButterflyTabletTableViewCell" rowHeight="188" id="De9-1W-d6V" customClass="StoButterflyTabletTableViewCell" customModule="StoretailSDK" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="698" height="181"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="De9-1W-d6V" id="d5a-yh-zYO">
+                <rect key="frame" x="0.0" y="0.0" width="698" height="180.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oU6-Ix-3fX">
+                        <rect key="frame" x="3" y="3" width="692" height="174.5"/>
+                        <subviews>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hdO-p0-Afw">
+                                <rect key="frame" x="0.0" y="0.0" width="346" height="174.5"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="T62-lS-iGe">
+                                        <rect key="frame" x="0.0" y="0.0" width="346" height="174.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="346" id="4gd-OM-qhX"/>
+                                            <constraint firstAttribute="height" constant="174.5" id="Dyv-jc-OBC"/>
+                                        </constraints>
+                                    </imageView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y9t-Do-9Wz">
+                                        <rect key="frame" x="83" y="140" width="180" height="29.5"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="180" id="TOm-hF-15i"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="Y9t-Do-9Wz" firstAttribute="top" secondItem="hdO-p0-Afw" secondAttribute="top" constant="140" id="RuG-Ih-NQi"/>
+                                    <constraint firstAttribute="bottom" secondItem="Y9t-Do-9Wz" secondAttribute="bottom" constant="5" id="Wgn-On-sFh"/>
+                                    <constraint firstItem="Y9t-Do-9Wz" firstAttribute="centerX" secondItem="hdO-p0-Afw" secondAttribute="centerX" id="e9p-ty-oMN"/>
+                                    <constraint firstItem="T62-lS-iGe" firstAttribute="top" secondItem="hdO-p0-Afw" secondAttribute="top" id="iyB-IW-FpE"/>
+                                    <constraint firstItem="T62-lS-iGe" firstAttribute="centerX" secondItem="hdO-p0-Afw" secondAttribute="centerX" id="pcb-yb-QnP"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KEf-Od-HTM">
+                                <rect key="frame" x="346" y="0.0" width="346" height="174.5"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="hdO-p0-Afw" firstAttribute="width" secondItem="oU6-Ix-3fX" secondAttribute="width" multiplier="0.5" id="2Ue-C6-Ibf"/>
+                            <constraint firstItem="KEf-Od-HTM" firstAttribute="top" secondItem="oU6-Ix-3fX" secondAttribute="top" id="3YT-Mf-gWJ"/>
+                            <constraint firstItem="KEf-Od-HTM" firstAttribute="leading" secondItem="hdO-p0-Afw" secondAttribute="trailing" id="BPf-AL-QhV"/>
+                            <constraint firstAttribute="trailing" secondItem="KEf-Od-HTM" secondAttribute="trailing" id="EUC-8C-OkV"/>
+                            <constraint firstItem="hdO-p0-Afw" firstAttribute="leading" secondItem="oU6-Ix-3fX" secondAttribute="leading" id="IDb-Wr-E9i"/>
+                            <constraint firstAttribute="bottom" secondItem="hdO-p0-Afw" secondAttribute="bottom" id="SbX-1O-9Bd"/>
+                            <constraint firstAttribute="bottom" secondItem="KEf-Od-HTM" secondAttribute="bottom" id="ZnZ-bM-n8Z"/>
+                            <constraint firstItem="hdO-p0-Afw" firstAttribute="top" secondItem="oU6-Ix-3fX" secondAttribute="top" id="xsc-v8-MFq"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="oU6-Ix-3fX" firstAttribute="top" secondItem="d5a-yh-zYO" secondAttribute="top" constant="3" id="4Wh-yb-ZCn"/>
+                    <constraint firstAttribute="bottom" secondItem="oU6-Ix-3fX" secondAttribute="bottom" constant="3" id="Fjq-KK-ZPW"/>
+                    <constraint firstItem="oU6-Ix-3fX" firstAttribute="leading" secondItem="d5a-yh-zYO" secondAttribute="leading" constant="3" id="XOe-nd-kq5"/>
+                    <constraint firstAttribute="trailing" secondItem="oU6-Ix-3fX" secondAttribute="trailing" constant="3" id="h99-6V-Gsb"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="backgroundColorView" destination="hdO-p0-Afw" id="wjO-Zi-vGd"/>
+                <outlet property="backgroundHeight" destination="Dyv-jc-OBC" id="reS-E6-bef"/>
+                <outlet property="backgroundImage" destination="T62-lS-iGe" id="ZGZ-V7-sQG"/>
+                <outlet property="backgroundWidth" destination="4gd-OM-qhX" id="uTg-na-Z7J"/>
+                <outlet property="buttonsView" destination="Y9t-Do-9Wz" id="qFm-8V-kcF"/>
+                <outlet property="rightView" destination="KEf-Od-HTM" id="cg6-Ds-fto"/>
+            </connections>
+            <point key="canvasLocation" x="308.69565217391306" y="76.339285714285708"/>
+        </tableViewCell>
+    </objects>
+</document>

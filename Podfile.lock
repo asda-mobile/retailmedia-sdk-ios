@@ -1,0 +1,32 @@
+PODS:
+  - AEXML (4.2.2)
+  - Alamofire (4.6.0)
+  - AnyCodable (1.2.0)
+  - Nuke (7.5.2)
+  - SwiftHash (2.0.1)
+
+DEPENDENCIES:
+  - AEXML
+  - Alamofire (~> 4.4)
+  - AnyCodable
+  - Nuke (~> 7.0)
+  - SwiftHash
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AEXML
+    - Alamofire
+    - AnyCodable
+    - Nuke
+    - SwiftHash
+
+SPEC CHECKSUMS:
+  AEXML: 5ebafc1b75e0bcf0f1b09b8ca8fed2d5a199479b
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  AnyCodable: bb05e19c676899e0fd511652f2d83bfa044e2503
+  Nuke: 0350d346a688426e8f2331253ef28dc2fc4f6178
+  SwiftHash: c805de5a434eacfa0dac7210745a50c55d7fe33d
+
+PODFILE CHECKSUM: facded712bb164eb21e682a90cb99b5f06ea7018
+
+COCOAPODS: 1.5.3

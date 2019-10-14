@@ -13,7 +13,7 @@ DEPENDENCIES:
   - SwiftHash
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - AEXML
     - Alamofire
     - AnyCodable
@@ -29,4 +29,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: facded712bb164eb21e682a90cb99b5f06ea7018
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.8.3

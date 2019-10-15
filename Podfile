@@ -6,7 +6,7 @@ target 'StoretailSDK' do
   use_frameworks!
   #pod 'Cosmos', '~> 10.0'
 
-    pod 'AnyCodable'  
+    pod 'AnyCodable'
     pod 'Nuke', '~> 7.0'
 
 #pod 'KFSwiftImageLoader', '~> 3.0'
@@ -15,15 +15,14 @@ target 'StoretailSDK' do
 
 #pod 'SDWebImage', '~>3.8'
 
-    pod 'Alamofire', '~> 4.4'
+    pod 'Alamofire', '~> 4.8.2'
 
     pod 'AEXML'
 
 #pod 'Just'
-    
+
     pod 'SwiftHash'
 
   # Pods for StoretailSDK
 
 end
-

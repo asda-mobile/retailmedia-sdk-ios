@@ -1,0 +1,5 @@
+github "Alamofire/Alamofire" "4.4"
+github "tadija/AEXML"
+github "kean/Nuke" ~> 8.0
+github "Flight-School/AnyCodable" ~> 0.2.3
+github "onmyway133/SwiftHash"

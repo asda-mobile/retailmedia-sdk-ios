@@ -12,15 +12,6 @@
 		0F1816F5212C1632008F5C9A /* StoEventCommunicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1816F4212C1632008F5C9A /* StoEventCommunicator.swift */; };
 		0F699D7320D1219000FD698B /* StoCrawl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F699D7220D1219000FD698B /* StoCrawl.swift */; };
 		0F699D7520D121BF00FD698B /* StoProductContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F699D7420D121BF00FD698B /* StoProductContainer.swift */; };
-		0F7EA872200AB51800B3FAEA /* AEXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F7EA87C200AB51800B3FAEA /* AEXML.framework */; };
-		0F7EA873200AB51800B3FAEA /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F7EA87D200AB51800B3FAEA /* Alamofire.framework */; };
-		0F7EA874200AB51800B3FAEA /* Cosmos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F7EA87E200AB51800B3FAEA /* Cosmos.framework */; };
-		0F7EA875200AB51800B3FAEA /* ImageLoader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F7EA87F200AB51800B3FAEA /* ImageLoader.framework */; };
-		0F7EA876200AB51800B3FAEA /* Just.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F7EA880200AB51800B3FAEA /* Just.framework */; };
-		0F7EA877200AB51800B3FAEA /* KFSwiftImageLoader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F7EA881200AB51800B3FAEA /* KFSwiftImageLoader.framework */; };
-		0F7EA878200AB51800B3FAEA /* Nuke.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F7EA882200AB51800B3FAEA /* Nuke.framework */; };
-		0F7EA87A200AB51800B3FAEA /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F7EA884200AB51800B3FAEA /* SDWebImage.framework */; };
-		0F7EA87B200AB51800B3FAEA /* SwiftHash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F7EA885200AB51800B3FAEA /* SwiftHash.framework */; };
 		0F9C28AB207F97620023BB60 /* StoRetrieverDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9C28AA207F97620023BB60 /* StoRetrieverDelegate.swift */; };
 		0FCA3B422035A26E00BFC34F /* StoFormatsPositions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCA3B412035A26E00BFC34F /* StoFormatsPositions.swift */; };
 		0FE0E141200B8FF3009B0A15 /* StoConnexionUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE0E115200B8FEB009B0A15 /* StoConnexionUtils.swift */; };
@@ -47,7 +38,6 @@
 		0FE0E163200B8FF3009B0A15 /* QueryStringParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE0E137200B8FF1009B0A15 /* QueryStringParams.swift */; };
 		0FE0E165200B8FF3009B0A15 /* StoKeyValuePersistanceMananger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE0E139200B8FF1009B0A15 /* StoKeyValuePersistanceMananger.swift */; };
 		0FE0E167200B8FF3009B0A15 /* StoPersistanceHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE0E13B200B8FF2009B0A15 /* StoPersistanceHandler.swift */; };
-		57752ECC9539859EA4B54778 /* Pods_StoretailSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A64152A750CCCE4CF246D658 /* Pods_StoretailSDK.framework */; };
 		F031336D22B3DA3F000D0A1C /* StoFormatParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F031336C22B3DA3F000D0A1C /* StoFormatParser.swift */; };
 		F031337F22B7C3B7000D0A1C /* StoButterflyParserLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F031337E22B7C3B7000D0A1C /* StoButterflyParserLogic.swift */; };
 		F031338122B8DAC3000D0A1C /* StoResponseLod.swift in Sources */ = {isa = PBXBuildFile; fileRef = F031338022B8DAC3000D0A1C /* StoResponseLod.swift */; };
@@ -84,6 +74,11 @@
 		F0E9131A22E9F9B00040272B /* StoBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E9131922E9F9B00040272B /* StoBanner.swift */; };
 		F0E9131C22E9FB480040272B /* StoBannerParserLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E9131B22E9FB480040272B /* StoBannerParserLogic.swift */; };
 		F0E9131E22EAF78F0040272B /* StoFormatViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E9131D22EAF78F0040272B /* StoFormatViewProtocol.swift */; };
+		F5A165A62356612800C37B7B /* AEXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A165A12356612800C37B7B /* AEXML.framework */; };
+		F5A165A72356612800C37B7B /* AnyCodable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A165A22356612800C37B7B /* AnyCodable.framework */; };
+		F5A165A82356612800C37B7B /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A165A32356612800C37B7B /* Alamofire.framework */; };
+		F5A165A92356612800C37B7B /* Nuke.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A165A42356612800C37B7B /* Nuke.framework */; };
+		F5A165AA2356612800C37B7B /* SwiftHash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A165A52356612800C37B7B /* SwiftHash.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -92,35 +87,8 @@
 		0F0E1F771F5FF30200F4C741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F1816F2212C0B87008F5C9A /* StoFormatListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoFormatListener.swift; sourceTree = "<group>"; };
 		0F1816F4212C1632008F5C9A /* StoEventCommunicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoEventCommunicator.swift; sourceTree = "<group>"; };
-		0F4F9982200AB16F002F0A46 /* AEXML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AEXML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F4F9983200AB16F002F0A46 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F4F9984200AB16F002F0A46 /* Cosmos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Cosmos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F4F9985200AB16F002F0A46 /* ImageLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ImageLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F4F9986200AB16F002F0A46 /* Just.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Just.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F4F9987200AB16F002F0A46 /* KFSwiftImageLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = KFSwiftImageLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F4F9988200AB16F002F0A46 /* Nuke.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Nuke.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F4F9989200AB16F002F0A46 /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F4F998A200AB16F002F0A46 /* SwiftHash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftHash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F699D7220D1219000FD698B /* StoCrawl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoCrawl.swift; sourceTree = "<group>"; };
 		0F699D7420D121BF00FD698B /* StoProductContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoProductContainer.swift; sourceTree = "<group>"; };
-		0F7EA87C200AB51800B3FAEA /* AEXML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AEXML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F7EA87D200AB51800B3FAEA /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F7EA87E200AB51800B3FAEA /* Cosmos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Cosmos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F7EA87F200AB51800B3FAEA /* ImageLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ImageLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F7EA880200AB51800B3FAEA /* Just.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Just.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F7EA881200AB51800B3FAEA /* KFSwiftImageLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = KFSwiftImageLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F7EA882200AB51800B3FAEA /* Nuke.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Nuke.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F7EA884200AB51800B3FAEA /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F7EA885200AB51800B3FAEA /* SwiftHash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftHash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F973494200A7D3800FC0C40 /* AEXML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AEXML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F973495200A7D3800FC0C40 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F973496200A7D3800FC0C40 /* Cosmos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Cosmos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F973497200A7D3800FC0C40 /* ImageLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ImageLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F973498200A7D3800FC0C40 /* Just.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Just.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F973499200A7D3800FC0C40 /* KFSwiftImageLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = KFSwiftImageLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F97349A200A7D3800FC0C40 /* Nuke.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Nuke.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F97349C200A7D3800FC0C40 /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F97349D200A7D3800FC0C40 /* SwiftHash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftHash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F9C28AA207F97620023BB60 /* StoRetrieverDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoRetrieverDelegate.swift; sourceTree = "<group>"; };
 		0FCA3B412035A26E00BFC34F /* StoFormatsPositions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoFormatsPositions.swift; sourceTree = "<group>"; };
 		0FE0E115200B8FEB009B0A15 /* StoConnexionUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoConnexionUtils.swift; sourceTree = "<group>"; };
@@ -147,12 +115,6 @@
 		0FE0E137200B8FF1009B0A15 /* QueryStringParams.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueryStringParams.swift; sourceTree = "<group>"; };
 		0FE0E139200B8FF1009B0A15 /* StoKeyValuePersistanceMananger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoKeyValuePersistanceMananger.swift; sourceTree = "<group>"; };
 		0FE0E13B200B8FF2009B0A15 /* StoPersistanceHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoPersistanceHandler.swift; sourceTree = "<group>"; };
-		22A24F95752EBFECB5F0BFAE /* Pods_StoretailSDKTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StoretailSDKTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		52A752E558C60627861570E9 /* Pods-StoretailSDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StoretailSDKTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StoretailSDKTests/Pods-StoretailSDKTests.release.xcconfig"; sourceTree = "<group>"; };
-		62D788299B22F9BB07B60274 /* Pods-StoretailSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StoretailSDK.release.xcconfig"; path = "Pods/Target Support Files/Pods-StoretailSDK/Pods-StoretailSDK.release.xcconfig"; sourceTree = "<group>"; };
-		8816CC7801CD023F4DB7BE1D /* Pods-StoretailSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StoretailSDKTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StoretailSDKTests/Pods-StoretailSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
-		A64152A750CCCE4CF246D658 /* Pods_StoretailSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StoretailSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC8134095EF4E91D631BE3BA /* Pods-StoretailSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StoretailSDK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StoretailSDK/Pods-StoretailSDK.debug.xcconfig"; sourceTree = "<group>"; };
 		F031336C22B3DA3F000D0A1C /* StoFormatParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoFormatParser.swift; sourceTree = "<group>"; };
 		F031337E22B7C3B7000D0A1C /* StoButterflyParserLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoButterflyParserLogic.swift; sourceTree = "<group>"; };
 		F031338022B8DAC3000D0A1C /* StoResponseLod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoResponseLod.swift; sourceTree = "<group>"; };
@@ -189,6 +151,12 @@
 		F0E9131922E9F9B00040272B /* StoBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoBanner.swift; sourceTree = "<group>"; };
 		F0E9131B22E9FB480040272B /* StoBannerParserLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoBannerParserLogic.swift; sourceTree = "<group>"; };
 		F0E9131D22EAF78F0040272B /* StoFormatViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoFormatViewProtocol.swift; sourceTree = "<group>"; };
+		F5A165A12356612800C37B7B /* AEXML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AEXML.framework; path = Carthage/Build/iOS/AEXML.framework; sourceTree = "<group>"; };
+		F5A165A22356612800C37B7B /* AnyCodable.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AnyCodable.framework; path = Carthage/Build/iOS/AnyCodable.framework; sourceTree = "<group>"; };
+		F5A165A32356612800C37B7B /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		F5A165A42356612800C37B7B /* Nuke.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nuke.framework; path = Carthage/Build/iOS/Nuke.framework; sourceTree = "<group>"; };
+		F5A165A52356612800C37B7B /* SwiftHash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftHash.framework; path = Carthage/Build/iOS/SwiftHash.framework; sourceTree = "<group>"; };
+		F5A165AB235661AC00C37B7B /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,16 +164,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F7EA872200AB51800B3FAEA /* AEXML.framework in Frameworks */,
-				0F7EA873200AB51800B3FAEA /* Alamofire.framework in Frameworks */,
-				0F7EA874200AB51800B3FAEA /* Cosmos.framework in Frameworks */,
-				0F7EA875200AB51800B3FAEA /* ImageLoader.framework in Frameworks */,
-				0F7EA876200AB51800B3FAEA /* Just.framework in Frameworks */,
-				0F7EA877200AB51800B3FAEA /* KFSwiftImageLoader.framework in Frameworks */,
-				0F7EA878200AB51800B3FAEA /* Nuke.framework in Frameworks */,
-				0F7EA87A200AB51800B3FAEA /* SDWebImage.framework in Frameworks */,
-				0F7EA87B200AB51800B3FAEA /* SwiftHash.framework in Frameworks */,
-				57752ECC9539859EA4B54778 /* Pods_StoretailSDK.framework in Frameworks */,
+				F5A165A62356612800C37B7B /* AEXML.framework in Frameworks */,
+				F5A165A72356612800C37B7B /* AnyCodable.framework in Frameworks */,
+				F5A165A82356612800C37B7B /* Alamofire.framework in Frameworks */,
+				F5A165A92356612800C37B7B /* Nuke.framework in Frameworks */,
+				F5A165AA2356612800C37B7B /* SwiftHash.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,9 +178,9 @@
 		0F0E1F691F5FF30200F4C741 = {
 			isa = PBXGroup;
 			children = (
+				F5A165AB235661AC00C37B7B /* Cartfile */,
 				0F0E1F751F5FF30200F4C741 /* StoretailSDK */,
 				0F0E1F741F5FF30200F4C741 /* Products */,
-				994BD10D842A66B501D65D0E /* Pods */,
 				805F07DC10BFF3B74A66A7C9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -400,48 +363,13 @@
 		805F07DC10BFF3B74A66A7C9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0F7EA87C200AB51800B3FAEA /* AEXML.framework */,
-				0F7EA87D200AB51800B3FAEA /* Alamofire.framework */,
-				0F7EA87E200AB51800B3FAEA /* Cosmos.framework */,
-				0F7EA87F200AB51800B3FAEA /* ImageLoader.framework */,
-				0F7EA880200AB51800B3FAEA /* Just.framework */,
-				0F7EA881200AB51800B3FAEA /* KFSwiftImageLoader.framework */,
-				0F7EA882200AB51800B3FAEA /* Nuke.framework */,
-				0F7EA884200AB51800B3FAEA /* SDWebImage.framework */,
-				0F7EA885200AB51800B3FAEA /* SwiftHash.framework */,
-				0F4F9982200AB16F002F0A46 /* AEXML.framework */,
-				0F4F9983200AB16F002F0A46 /* Alamofire.framework */,
-				0F4F9984200AB16F002F0A46 /* Cosmos.framework */,
-				0F4F9985200AB16F002F0A46 /* ImageLoader.framework */,
-				0F4F9986200AB16F002F0A46 /* Just.framework */,
-				0F4F9987200AB16F002F0A46 /* KFSwiftImageLoader.framework */,
-				0F4F9988200AB16F002F0A46 /* Nuke.framework */,
-				0F4F9989200AB16F002F0A46 /* SDWebImage.framework */,
-				0F4F998A200AB16F002F0A46 /* SwiftHash.framework */,
-				0F973494200A7D3800FC0C40 /* AEXML.framework */,
-				0F973495200A7D3800FC0C40 /* Alamofire.framework */,
-				0F973496200A7D3800FC0C40 /* Cosmos.framework */,
-				0F973497200A7D3800FC0C40 /* ImageLoader.framework */,
-				0F973498200A7D3800FC0C40 /* Just.framework */,
-				0F973499200A7D3800FC0C40 /* KFSwiftImageLoader.framework */,
-				0F97349A200A7D3800FC0C40 /* Nuke.framework */,
-				0F97349C200A7D3800FC0C40 /* SDWebImage.framework */,
-				0F97349D200A7D3800FC0C40 /* SwiftHash.framework */,
-				A64152A750CCCE4CF246D658 /* Pods_StoretailSDK.framework */,
-				22A24F95752EBFECB5F0BFAE /* Pods_StoretailSDKTests.framework */,
+				F5A165A12356612800C37B7B /* AEXML.framework */,
+				F5A165A32356612800C37B7B /* Alamofire.framework */,
+				F5A165A22356612800C37B7B /* AnyCodable.framework */,
+				F5A165A42356612800C37B7B /* Nuke.framework */,
+				F5A165A52356612800C37B7B /* SwiftHash.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		994BD10D842A66B501D65D0E /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				EC8134095EF4E91D631BE3BA /* Pods-StoretailSDK.debug.xcconfig */,
-				62D788299B22F9BB07B60274 /* Pods-StoretailSDK.release.xcconfig */,
-				8816CC7801CD023F4DB7BE1D /* Pods-StoretailSDKTests.debug.xcconfig */,
-				52A752E558C60627861570E9 /* Pods-StoretailSDKTests.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		F0B6837A22D87FE200917CAA /* models */ = {
@@ -538,7 +466,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F0E1F871F5FF30200F4C741 /* Build configuration list for PBXNativeTarget "StoretailSDK" */;
 			buildPhases = (
-				6F7651462A6D4E883069726C /* [CP] Check Pods Manifest.lock */,
 				0F0E1F6E1F5FF30200F4C741 /* Sources */,
 				0F0E1F6F1F5FF30200F4C741 /* Frameworks */,
 				0F0E1F701F5FF30200F4C741 /* Headers */,
@@ -602,27 +529,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		6F7651462A6D4E883069726C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-StoretailSDK-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0F0E1F6E1F5FF30200F4C741 /* Sources */ = {
@@ -823,7 +729,6 @@
 		};
 		0F0E1F881F5FF30200F4C741 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EC8134095EF4E91D631BE3BA /* Pods-StoretailSDK.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -834,9 +739,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = StoretailSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.criteo.storetailsdk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -849,7 +758,6 @@
 		};
 		0F0E1F891F5FF30200F4C741 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62D788299B22F9BB07B60274 /* Pods-StoretailSDK.release.xcconfig */;
 			buildSettings = {
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -860,9 +768,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = StoretailSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.criteo.storetailsdk;
 				PRODUCT_NAME = "$(TARGET_NAME)";

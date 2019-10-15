@@ -1,0 +1,5 @@
+github "Alamofire/Alamofire" "4.9.0"
+github "asda-mobile/AnyCodable" "1ddac8acea3c0313b73f0b5b3844bbf6fa9de738"
+github "kean/Nuke" "7.6.3"
+github "onmyway133/SwiftHash" "2.0.2"
+github "tadija/AEXML" "4.5.0"
